@@ -11,14 +11,13 @@ A python interface for identification and authentication of divaang (blind) pers
 6) Hope this project helps! xD 
 
 ## Different steps for identification of person:
-1--> Identification using RFID
-2--> Identification using face 
-
+1) Identification using RFID
+2) Identification using face
 
 ## Different steps for authentication of person:
-3--> Authentication using Fingerprint
-4--> Authentication using mobile location (an app named locationtrack)
-5--> Authentication using speech recognition 
+3) Authentication using Fingerprint
+4) Authentication using mobile location (an app named locationtrack)
+5) Authentication using speech recognition 
 
 
 ## After all these steps verified if the person is found to be legitimate then the interface asks person how much to withdraw and then analyzes the amount said by the customer and processes the amount.
