@@ -1,20 +1,35 @@
-# Voice-Authentication-CNN
-A simple Voice Authentication system using pre-trained Convolutional Neural Network.
+# Divaang_ATM_Verification
 
-## Enrollment:
-Enroll a new user using an audio file of his/her voice
+A python interface for identification and authentication of divaang (blind) person with intergrated IoT devices.
 
-``C:\Users\Desktop\Voice-Recognition-CNN>python voice_auth.py -t enroll -n "name of person" -f C:\path\to\audio\audio.wav``
+## Steps to run this project 
+1) Move to the directory of the project where you have downloaded
+2) On the address bar just simply write cmd or open command prompt on that directory
+3) On the command prompt write 'python app.py'
+4) Then open the main.py on any of the editors like visual studio and run main.py.
+5) Boom! the interface start to ask for different steps for identification and verification
+6) Hope this project helps! xD 
 
-## Enrollment using csv:
-Enroll mutiple users using a .csv file containing list of names and file paths respectively
+## Different steps for identification of person:
+1--> Identification using RFID
+2--> Identification using face 
 
-``C:\Users\Desktop\Voice-Recognition-CNN>python voice_auth.py -t enroll -f C:\path\to\csv\list.csv``
 
- 
-## Recognition:
-Authenticate a user if it matches voice prints saved on the disk
+## Different steps for authentication of person:
+3--> Authentication using Fingerprint
+4--> Authentication using mobile location (an app named locationtrack)
+5--> Authentication using speech recognition 
 
-``C:\Users\Desktop\Voice-Recognition-CNN>python voice_auth.py -t recognize -f C:\path\to\audio\audio.flac``
+
+## After all these steps verified if the person is found to be legitimate then the interface asks person how much to withdraw and then analyzes the amount said by the customer and processes the amount.
+
+
+## Project Working Video: 
+https://drive.google.com/file/d/1geCalDn-BxHHniMBNVru4orXGQlkTRLP/view?usp=share_link
+
+## Full Project Code : 
+https://drive.google.com/file/d/1OM6Yk2axh-7SjCcP3Hm5m1hqbMnQjjDH/view?usp=share_link
+
+
 
 
