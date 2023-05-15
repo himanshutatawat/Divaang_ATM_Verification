@@ -20,7 +20,7 @@ A python interface for identification and authentication of divaang (blind) pers
 5) Authentication using speech recognition 
 
 
-## After all these steps verified if the person is found to be legitimate then the interface asks person how much to withdraw and then analyzes the amount said by the customer and processes the amount.
+## After all these steps if the person is found to be legitimate then the interface asks person how much to withdraw and then analyzes the amount said by the customer and processes the amount and if the person is not found to be legitimate then the interface gives error.
 
 
 ## Project Working Video: 
